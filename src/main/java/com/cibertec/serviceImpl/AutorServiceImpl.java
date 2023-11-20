@@ -12,10 +12,13 @@ public class AutorServiceImpl extends ICRUDImpl<Autor, Long>{
 
 	@Autowired
 	private AutorDAO repo;
-	
+
 	@Override
 	public JpaRepository<Autor, Long> getRepository() {
 		return repo;
 	}
+	
+
+	
 
 }

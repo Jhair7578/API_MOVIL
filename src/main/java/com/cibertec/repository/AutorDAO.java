@@ -6,4 +6,5 @@ import com.cibertec.entity.Autor;
 
 public interface AutorDAO extends JpaRepository<Autor, Long>{
 
+	
 }
